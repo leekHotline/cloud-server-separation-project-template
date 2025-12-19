@@ -1,3 +1,8 @@
+<img width="1860" height="915" alt="Snipaste_2025-12-20_00-24-17" src="https://github.com/user-attachments/assets/854d725f-60a5-4c05-a4b2-f5e40e3d69b7" />
+<img width="1860" height="915" alt="Snipaste_2025-12-20_00-24-31" src="https://github.com/user-attachments/assets/9b1a0ea9-7aed-44cd-a9a8-302a4692bf08" />
+
+## 项目待更新
+
 连接云服务器 创建项目目录并跳转到该目录 -p是代表没有父目录时也创建父目录
 
 mkdir -p /data/项目名称 && cd /data/项目名称
@@ -14,7 +19,7 @@ chmod +x [deploy.sh](http://deploy.sh)
 
 
 
-
+添加入站规则 tcp协议3001端口开放
 
 ## ✅ 完成后的访问地址
 
@@ -24,6 +29,5 @@ chmod +x [deploy.sh](http://deploy.sh)
 | 🔧 API 文档 | `http://your-server-ip:8000/docs` |
 | 📊 监控面板 | `http://your-server-ip:3001`      |
 
-查看日志
-
-docker-compose logs -f
+# 查看所有容器的日志
+docker-compose logs --tail=30
