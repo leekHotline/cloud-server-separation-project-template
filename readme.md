@@ -1,6 +1,17 @@
 <img width="1860" height="915" alt="Snipaste_2025-12-20_00-24-17" src="https://github.com/user-attachments/assets/854d725f-60a5-4c05-a4b2-f5e40e3d69b7" />
 <img width="1860" height="915" alt="Snipaste_2025-12-20_00-24-31" src="https://github.com/user-attachments/assets/9b1a0ea9-7aed-44cd-a9a8-302a4692bf08" />
 
+## ✅ 目标
+
+将React 前端项目 构建为静态文件，并通过 Nginx 提供服务，最终通过 公网 IP（如 http://111.229.63.117
+） 直接访问。
+## 🔧 核心原理
+
+####     React 是静态站点（build 后生成 index.html + JS/CSS 等）。
+####     Nginx 作为 Web 服务器，直接托管这些静态文件。
+####     你的 nginx.conf 已经配置好，把根路径 / 指向前端构建产物。
+####     整个部署由 docker-compose.yml + deploy.sh 自动化完成。
+
 ## 项目待更新
 
 连接云服务器 创建项目目录并跳转到该目录 -p是代表没有父目录时也创建父目录
