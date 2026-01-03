@@ -3,8 +3,9 @@
 
 ## ✅ 目标
 
-将React 前端项目 构建为静态文件，并通过 Nginx 提供服务，最终通过 公网 IP（如 http://111.229.63.117
-） 直接访问。
+将React 前端项目 构建为静态文件，并通过 Nginx 提供服务，最终通过 公网 IP（如 http://ip
+）http80端口 直接访问。
+项目nginx.conf在宿主机的/data/myproject文件夹下面
 ## 🔧 核心原理
 
 ####     React 是静态站点（build 后生成 index.html + JS/CSS 等）。
